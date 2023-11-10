@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+    width: 50%;
+    border: 3px solid black;
+    position: relative;
+    margin: 30px;
+}
+
+.container .inner{
+    height: 40%;
+    width: 60%;
+    border:3px solid red;
+}
+
+.container .pst{
+    position: absolute;
+    top: 60px;
+    height: 200px;
+    width: 100px;
+}
+
+.t2absolute{
+    position: absolute;
+    height: 120px;
+    width: 10%;
+    text-align: center;
+    background-color: blueviolet;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+}
+
+.t2conntainer{
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    
+}
+.t2conntainer .t2static{
+    position: static;
+    display: inline-block;
+    width: 28%;
+    height: 80px;
+    background-color:bisque;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 15px; 
+}
+.t2conntainer .t2relative{
+    position: absolute;
+    display: inline-block;
+    width: 28%;
+    height: 80px;
+    background-color: blue;
+    bottom: 15px;
+    margin-right: 200px;
+    right: 15px;
+}
+
+.t2conntainer .t2static2{
+    position: static;
+    display: inline-block;
+    width: 28%;
+    height: 80px;
+    background-color: bisque; 
+    text-align: center;
+    padding-top: 30px; 
+    margin-left: 210px;
+}
+
+.t2container1{
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+   
+}
+
+.t2container1 .t2static{ 
+    position: static; 
+    display: inline-block;
+    width: 28%;
+    height: 80px;
+    background-color: bisque; 
+    text-align: center;
+    padding-top: 30px; 
+    margin-left: 50px;
+}
+.t2container1 .t2static2{
+    position: static;
+    display: inline-block;
+    width: 28%;
+    height: 80px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 140px;
+}
+
+
+.t2container2 {
+    position: relative;
+    width: 30%;
+    height: 80px;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    
+}
+
+.t2container2 .t2static {
+    position: static;
+    display: inline-block;
+    width: 20%;
+    height: 80px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 30px;    
+    margin-left: 50px;
+}
+
+.t2container2 .t2fixed {
+    position: fixed;
+    display: inline-block;
+    width: 10%;
+    height: 80px;
+    background-color: red;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.t2container2 .t2static2 {
+    position: static;
+    display: inline-block;
+    width: 20%;
+    height: 80px;
+    background-color: bisque;  
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 230px;
+}
+
+.box1 {
+    height: 100px;
+    width: 20%;
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.box2{
+    height: 200px;
+    width: 5%;
+    border: 2px solid black;
+    position: absolute;
+    left: 350px;
+    top: 110px;
+}
+
+.box3{
+    height: 70px;
+    width: 23%;
+    border: 2px solid black;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+.box4{
+    height: 500px;
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    border: 2px solid black;
+}
+
+
+.t4h1 {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 40%;
+}
+
+.t4fixed {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;  
+    text-align: center;
+    padding: 40px;
+}
+
+.t4box{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background-color: grey;
+    top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t4relative {
+    position: relative;
+    width: 80%;
+    height: 60px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t4absolute{
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    background-color: red;
+    bottom: 230px;
+    left: 80%;
+}
+.t4static{
+    position: static;
+    width: 80%;
+    height: 60px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+.t5container {
+    height: 600px;
+    width: 90%;
+    background-color: grey;
+}
+
+.t5box1 {
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    background-color: red; 
+    top: 30px;
+    left: 30px;
+}
+
+.t5box2 {
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    background-color: pink;
+    left: 150px;
+    top: 150px;
+}
+
+.t5box3 {
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    background-color: yellow;
+    left: 260px;
+    top: 190px;
+}
+
+.t5box4 {
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    background-color: green;
+    left: 300px;
+    top: 90px;
+}
+
+.t5box5 {
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    background-color: blue; 
+    top: 150px;
+    left: 350px;
+}
+
+
+
+.t6container {
+    position: relative;
+    display: block;
+}
+
+.t6box{
+    position: absolute;
+    border: 1px solid black;
+    height: 100em;
+    width: 50%;
+    left: 25%;  
+    top: 10%;
+}
+
+.t6black {
+    position: absolute;
+    height: 60px;
+    width: 20%;
+    background-color: black;   
+    left: 55%;
+    top: 200px;
+}
+
+.t6yellow{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    top: 450px;
+}
+
+.t6purple {
+    height: 100vh;
+    width: 5%;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50%;
+}
+
+.t6blue {
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    top: 650px;
+    position: absolute;
+    left: 475px;
+}
+
+
+.t9box {
+    position: relative;
+    border: 1px solid black;
+    height: 250px;
+    margin: 15px;
+    width: 60%;
+}
+
+.target {
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    background-color: violet;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+.t10container{
+    position: relative;
+    margin: 20px;
+    border: 1px solid red;
+    height: 400px;
+    width: 40%;
+    position: relative;
+}
+
+.t10box1{ 
+    position: absolute;
+    width: 15%;
+    height: 80px;
+    background-color: cyan;
+    left: -15px;
+    top: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t10box2{
+    position: absolute;
+    width: 15%;
+    height: 80px; 
+    background-color: blue;
+    left: 15px;
+    top: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t10box3{
+    position: absolute;
+    background-color: red;
+    width: 15%;
+    height: 80px;
+    left: 15px;
+    top: 190px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t10box4{
+    position: absolute;
+    background-color: blueviolet;
+    width: 15%;
+    height: 80px;
+    left: 15px;
+    top: 280px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+
+
+.t11container{
+    position: relative;
+    margin: 20px;
+    border: 1px solid red;
+    height: 400px;
+    width: 40%;
+    position: relative;
+}
+
+.t11box1{ 
+    position: absolute;
+    width: 15%;
+    height: 80px;
+    background-color: cyan;
+    left: 15px;
+    top: 130px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t11box2{
+    position: absolute;
+    width: 15%;
+    height: 80px; 
+    background-color: blue;
+    left: 15px;
+    top: 70px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t11box3{
+    position: absolute;
+    background-color: red;
+    width: 15%;
+    height: 80px; 
+    left: 15px;
+    top: 190px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.t11box4{
+    position: absolute;
+    background-color: blueviolet;
+    width: 15%;
+    height: 80px;
+    left: 15px;
+    top: 300px;
+    text-align: center;
+    border-radius: 8px;
+}

@@ -1,0 +1,110 @@
+.task3li:hover{
+    color: red;
+}
+.green{
+    background-color: green;
+
+}
+.red{
+    background-color: red;
+}
+.task7but:hover{
+    background-color: greenyellow;
+}
+.task7but{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 250px;
+    left: 350px;
+    font-size: 40px;
+}
+a {
+    display: block;
+    color: grey;
+}
+a:visited{
+    color: green;
+}
+.but1{
+    background-color: blue;
+    border: none;
+    border-radius: 16px;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.but1:hover{
+    background-color: bisque;
+}
+
+.t5box1{
+     width: 70px;
+     height: 70px;
+     text-align:center;
+     font-size: 25px;
+     background-color: bisque;
+}
+
+.t5box2{
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    background-color: red;
+}
+.t5box3{
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    background-color: aquamarine;
+}
+.t5box4{
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    background-color: cyan;
+}
+.t5box5{
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    background-color: violet;
+}
+.t5box1 ,.t5box2 ,.t5box3 ,.t5box4 ,.t5box5{
+    display: inline-block;
+}
+.t5box1:hover {
+   background: bisque;
+}
+
+.t5box2:hover {
+    background: red;
+ }
+ .t5box3:hover {
+    background: aquamarine;
+ }
+ .t5box4:hover {
+    background: cyan;
+ }
+ .t5box5:hover {
+    background: violet;
+ }
+
+.t1box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    background-color: rgb(179, 27, 156);
+}
+
+.t1box:hover{
+    background-color: rgb(220, 27, 220);
+}
+
+.label:hover{
+    background-color: grey;
+}
